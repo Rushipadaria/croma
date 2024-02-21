@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #191919;
+}
+
+header {
+    width: 100%;
+    /* margin: 0 auto; */
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header .logo {
+    padding: 10px 15px;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+    margin-right: 50px
+}
+
+header .menu p {
+    font-size: 15px;
+    color: white;
+    padding-left: 10px;
+}
+
+header .search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header .search input {
+    /* margin-right: 25px; */
+    width: 385px;
+    padding: 15px 0;
+    border-radius: 8px;
+}
+
+header .search #me {
+    position: absolute;
+    left: 51%;
+}
+
+header .search i {
+    margin-left: 60px;
+}
+
+header .search p {
+    color: white;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+header .use {
+    margin-left: 30px;
+}
+
+header #mg {
+    padding-left: 25px;
+}
+/* header end  */
+.banner{
+    width: 100%;
+    height: inherit;
+}
+.banner img{
+    width: 100%;
+    height: inherit;
+}
+/* banner end  */
+.pay{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pay .upi{
+    width: 48%;
+    border-radius: 10px;
+}
+.pay .upi img{
+    width: 100%;
+}
+.pay .upi:hover{
+    box-shadow: 5px 5px 25px cyan;
+}
+/* pay end  */
+h1{
+    color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.product{
+    width: 70%;
+    /* height: 35px; */
+    margin: 0 auto;
+    margin-top: 30px;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+}
+.product .mob{
+    width: 32%;
+}
+.product .mob img{
+    width: 100%;
+}
+/* product end  */
+.cat{
+    width: 95%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+.cat .id{
+    width: 24%;
+    /* height: 5%; */
+}
+.cat .id img{
+    width: 100%;
+}
+/* cat end  */
+.buy{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 25px;
+    height: inherit;
+    display: flex;
+    justify-content: space-evenly;
+}
+.buy .prd{
+    width: 24%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 18px 20px;
+}
+.buy .prd img{
+    width: 100%;
+}
+.buy .prd h2{
+    color: #ffffff;
+    font-size: 20px;
+}
+.buy .prd p{
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.buy .prd span{
+    text-decoration: line-through;
+    padding-left: 0px;
+    color: #9A9A9A;
+    transition: all 1s linear;
+}
+.buy .prd:hover img{
+    transform: scale(.9);
+}
+.buy .prd:hover{
+    box-shadow: 5px 5px 25px cyan;
+}
+/* buy end  */
+.ads{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.ads .cr{
+    width: 32%;
+    border-radius: 10px;
+}
+.ads .cr img{
+    width: 100%;
+    border-radius: 10px;
+}
+.font{
+    padding-left: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/* ads end  */
+.mac{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.mac .apple{
+    width: 49%;
+    border-radius: 10px;
+}
+.mac .apple img{
+    width: 100%;
+    border-radius: 10px;
+}
+#apple{
+    font-size: 22px;
+    padding-left: 233px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.mac1{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+.mac1 .apple1{
+    width: 32%;
+    border-radius: 10px;
+}
+.mac1 .apple1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.mac1 .apple2{
+    width: 24%;
+    border-radius: 10px;
+}
+.mac1 .apple2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* apple end  */
+.one {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.one .plus {
+    width: 24%;
+    border-radius: 10px;
+}
+.one .plus img{
+    width: 100%;
+    border-radius: 10px;
+}
+.one1{
+    margin-top: 10px;
+}
+
+.prd4{
+    width: 69%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+.prd4 .pd{
+    width: 24%;
+    border-radius: 10px;
+}
+.prd4 .pd img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* Accessories end  */
+.buy1{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.prt{
+    width: 24%;
+}
+/* Accessories Deals end  */
+.Exclusive{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.Exclusive .e{
+    width: 32%;
+    border-radius: 10px;
+}
+.Exclusive .e img{
+    width: 100%;
+    border-radius: 10px;
+}
+.exc{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.exc .e1{
+    width: 24%;
+    border-radius: 10px;
+}
+.exc .e1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* Croma Exclusive */
+.Home{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-self: center; */
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+.Home .co{
+    width: 24%;
+    border-radius: 10px;
+}
+.Home .co img{
+    width: 100%;
+    border-radius: 10px;
+}
+.co span{
+    color: white;
+    font-size: 25px;
+}
+.co1{
+    border: 1px solid black;
+    /* padding: 10px 20px; */
+}
+.co2{
+    border: 1px solid black;
+}
+.co3{
+    border: 1px solid black;
+}
+.co4{
+    border: 1px solid black;
+}
+
+.pr{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.pr .po{
+    width: 33%;
+    border-radius: 10px;
+}
+.pr .po img{
+    width: 100%;
+    border-radius: 10px;
+}
+.bg{
+     width: 100%;
+     margin: 0 auto;
+     margin-top: 40px;
+     display: flex;
+     justify-content: center;
+     background-image: url(https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1645445289/Croma%20Assets/CMS/Homepage%20Banners/Other/bg_eacw6e.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 25px;
+     padding-top: 50px;
+}
+.bg .mm{
+    width: 23%;
+    /* margin: 0 auto; */
+}
+.bg .mm img{
+    width: 100%;
+}
